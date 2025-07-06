@@ -1,1 +1,13 @@
-{"name":"backend","version":"1.0.0","main":"server.js","dependencies":{"express":"^4.18.2","cors":"^2.8.5"}}
+{
+  "name": "competency-assessment-backend",
+  "version": "1.0.0",
+  "description": "Backend API для приложения тестирования компетенций дизайнеров",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "python app.py"
+  },
+  "keywords": ["flask", "api", "competency", "assessment", "testing"],
+  "author": "Design Team",
+  "license": "MIT"
+}
